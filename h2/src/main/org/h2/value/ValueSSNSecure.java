@@ -9,7 +9,6 @@ package org.h2.value;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.regex.Matcher;
-
 import org.h2.engine.SysProperties;
 import org.h2.message.DbException;
 import org.h2.util.MathUtils;
@@ -18,18 +17,18 @@ import org.h2.util.StringUtils;
 
 /**
  * Implementation of the VARCHAR data type.
- * It is also the base class for other ValueSSN* classes.
+ * It is also the base class for other ValueSSNSecureSecure* classes.
  */
-public class ValueSSN extends Value {
+public class ValueSSNSecure extends Value {
 
-    private static final ValueSSN EMPTY = new ValueSSN("000000000");
+    private static final ValueSSNSecure EMPTY = new ValueSSNSecure("000000000");
 
     /**
      * The string data.
      */
     protected final String value;
 
-    protected ValueSSN(String value)  {
+    protected ValueSSNSecure(String value)  {
     	
         this.value = value;
         
@@ -38,30 +37,38 @@ public class ValueSSN extends Value {
     @Override
     public String getSQL()  {
     	
+    	//if(value.length()>9)
+			
+    	/*if(value.length()==9)
+    		return StringUtils.quoteStringSQL(value.substring(5,9));
+    	*/	
     		
     		return StringUtils.quoteStringSQL(value);
     }
 
     @Override
     public boolean equals(Object other) {
-        return other instanceof ValueSSN
-                && value.equals(((ValueSSN) other).value);
+        return other instanceof ValueSSNSecure
+                && value.equals(((ValueSSNSecure) other).value);
     }
 
     @Override
     protected int compareSecure(Value o, CompareMode mode) {
-        ValueSSN v = (ValueSSN) o;
+        // compatibility: the other object could be another type
+        ValueSSNSecure v = (ValueSSNSecure) o;
         return mode.compareString(value, v.value, false);
     }
 
     @Override
     public String getString() {
-    	return value;
+    	String partData=value.substring(value.lastIndexOf('-')+1,value.length());
+    	 partData="***-***-"+partData;
+    	return partData;
     }
 
     @Override
     public long getPrecision() {
-        return 9;
+        return 9;//value.length();
     }
 
     @Override
@@ -144,13 +151,13 @@ public class ValueSSN extends Value {
         if (s.isEmpty()) {
             return treatEmptyStringsAsNull ? ValueNull.INSTANCE : EMPTY;
         }
-      ValueSSN obj = new ValueSSN(StringUtils.cache(s));
+      ValueSSNSecure obj = new ValueSSNSecure(StringUtils.cache(s));
         if (s.length() > SysProperties.OBJECT_CACHE_MAX_PER_ELEMENT_SIZE) {
             return obj;
         }
         return Value.cache(obj);
         // this saves memory, but is really slow
-        // return new ValueSSN(s.intern());
+        // return new ValueSSNSecure(s.intern());
     }
 
     /**
@@ -161,7 +168,7 @@ public class ValueSSN extends Value {
      * @return the value
      */
     protected Value getNew(String s) {
-        return ValueSSN.get(s);
+        return ValueSSNSecure.get(s);
     }
 
 }

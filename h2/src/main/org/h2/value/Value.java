@@ -161,9 +161,15 @@ public abstract class Value {
     public static final int GEOMETRY = 22;
     
     /**
+     * The value type for SSNSecure values.
+     */
+    public static final int SSNSecure = 23;
+    
+    /**
      * The value type for SSN values.
      */
-    public static final int SSN = 23;
+    public static final int SSN = 24;
+   
 
 
     /**
@@ -319,8 +325,10 @@ public abstract class Value {
             return 50;
         case RESULT_SET:
             return 51;
-          case SSN:
+         case SSNSecure:
         	return 52;
+         case SSN:
+        	 return 53;
         	
         default:
             throw DbException.throwInternalError("type:"+type);
@@ -905,6 +913,8 @@ public abstract class Value {
             case GEOMETRY:
                 return ValueGeometry.get(s);
                 
+            case SSNSecure:
+            	return ValueSSNSecure.get(s);
             case SSN:
             	return ValueSSN.get(s);
             default:

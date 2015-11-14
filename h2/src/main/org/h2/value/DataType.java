@@ -58,7 +58,10 @@ public class DataType {
     private static final String GEOMETRY_CLASS_NAME =
             "com.vividsolutions.jts.geom.Geometry";
     
-    private static final String SSN_CLASS_NAME="org.h2.value.valueSSN";
+    private static final String SSNSecure_CLASS_NAME="org.h2.value.ValueSSNSecure";
+    
+    private static final String SSN_CLASS_NAME="org.h2.value.ValueSSN";
+    
 
     /**
      * The list of types. An ArrayList so that Tomcat doesn't set it to null
@@ -186,7 +189,7 @@ public class DataType {
     }
 
     static {
-        for (int i = 0; i < Value.TYPE_COUNT+1; i++) {
+        for (int i = 0; i <= Value.TYPE_COUNT+1; i++) {
             TYPES_BY_VALUE_TYPE.add(null);
         }
         add(Value.NULL, Types.NULL, "Null",
@@ -374,6 +377,11 @@ public class DataType {
                 dataType,
                 new String[]{"RESULT_SET"},
                 400
+        );
+        add(Value.SSNSecure, Types.VARCHAR, "String",
+                createString(true),
+                new String[]{"SSNSECURE"},
+                48
         );
         add(Value.SSN, Types.VARCHAR, "String",
                 createString(true),
@@ -751,6 +759,8 @@ public class DataType {
             return ResultSet.class.getName();
         case Value.GEOMETRY:
             return GEOMETRY_CLASS_NAME;
+        case Value.SSNSecure:
+        	return SSNSecure_CLASS_NAME;
         case Value.SSN:
         	return SSN_CLASS_NAME;
         default:
