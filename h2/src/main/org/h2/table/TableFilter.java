@@ -104,6 +104,39 @@ public class TableFilter implements ColumnResolver {
     private Expression fullCondition;
     private final int hashCode;
 
+    //vishal
+    private boolean outerJoin;
+    private boolean containsFullOuterJoin;
+    
+    
+    public void setContainsFullOuterJoin(boolean set) {
+    	containsFullOuterJoin = set;
+    }
+    
+    public boolean getcontainsFullOuterJoin() {
+    	return containsFullOuterJoin;
+    }
+    
+    public void setOuterJoin(boolean set) {
+    	outerJoin = set;
+    }
+    
+    public boolean getOuterJoin() {
+    	return outerJoin;
+    }
+    
+    //vishal
+    public void setOuterNULL() {
+    	joinOuterIndirect = false;
+    	joinOuter=false;
+    	currentSearchRow = null;
+    	scanCount = 0;
+    }
+    
+    public int getState() {
+    	 return state;
+    }
+    
     /**
      * Create a new table filter object.
      *
@@ -396,8 +429,24 @@ public class TableFilter implements ColumnResolver {
             }
             if (join != null) {
                 join.reset();
-                if (!join.next()) {
-                    continue;
+                /*
+                 * Author DBSI
+                 * If getOuterJoin is false then we get only A and A intersection B
+                 * if getOuterJoin is true then we get only A and no A intersection B  
+                 */
+                if(!getOuterJoin()) {
+	                if (!join.next()) {
+	                    continue;
+	                }
+                } else {
+	                if (join.next()) {
+	                	if(join.getState() == NULL_ROW){
+	                		//do nothing
+	                	} else {
+	                		continue;
+	                	}
+	                    
+	                }
                 }
             }
             // check if it's ok

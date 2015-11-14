@@ -551,6 +551,68 @@ public class Select extends Query {
                 }
             }
         }
+		
+        /*
+		 * Author: DBSI 
+		 * Added check to see if the join is full outer join
+		 */
+		if (topTableFilter.getJoin()!= null && topTableFilter.getJoin().getcontainsFullOuterJoin()) {
+			topTableFilter.getJoin().setContainsFullOuterJoin(false);
+			
+			//create temporary tablefilter to swap the join table filters
+			TableFilter joinfilter = topTableFilter.getJoin().getTableFilter();
+			TableFilter temp;
+			temp = joinfilter;
+			joinfilter=topTableFilter;
+			topTableFilter = temp;
+			
+			//resetting join location pointer
+			topTableFilter.reset();
+			//remove join to complete the swap
+			joinfilter.removeJoin();
+			
+			//add the previous head tablefilter as join for current tablefilter
+			topTableFilter.addJoin(joinfilter, true, false,topTableFilter.getJoinCondition());
+			topTableFilter.removeJoinCondition();
+			topTableFilter.setOuterNULL();
+			
+			//find the optimize plan (i.e. setting suitable indexes using cost plan for each table filter filescan for the head and hash for the join) 
+			TableFilter f[] = new TableFilter[1];
+			f[0]=topTableFilter;
+			Optimizer optimizer = new Optimizer(f, null, session);
+			optimizer.optimize();
+			topTableFilter = optimizer.getTopFilter();
+			setEvaluatableRecursive(topTableFilter);
+			topTableFilter.prepare();
+			topTableFilter.setOuterJoin(true);
+
+			//looping through the head table filter and checking the negation of condition mentioned
+			while (topTableFilter.next()) {
+				setCurrentRowNumber(rowNumber + 1);
+				if (condition == null
+						|| Boolean.TRUE.equals(condition.getBooleanValue(session))) {
+					Value[] row = new Value[columnCount];
+					for (int i = 0; i < columnCount; i++) {
+						Expression expr = expressions.get(i);
+						row[i] = expr.getValue(session);
+					}
+					if (isForUpdateMvcc) {
+						topTableFilter.lockRowAdd(forUpdateRows);
+					}
+					result.addRow(row);
+					rowNumber++;
+					if ((sort == null || sortUsingIndex) && limitRows > 0
+							&& result.getRowCount() >= limitRows) {
+						break;
+					}
+					if (sampleSize > 0 && rowNumber >= sampleSize) {
+						break;
+					}
+				}
+			}
+			topTableFilter.setOuterJoin(false);
+		}
+
         if (isForUpdateMvcc) {
             topTableFilter.lockRows(forUpdateRows);
         }
