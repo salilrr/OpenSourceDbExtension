@@ -2,7 +2,7 @@
  * 
  * Copyright 2004-2014 H2 Group. Multiple-Licensed under the MPL 2.0,
  * and the EPL 1.0 (http://h2database.com/html/license.html).
- * Initial Developer: H2 Group
+ *  Developer: Salil Rajadhyaksha
  */
 package org.h2.value;
 
@@ -16,8 +16,7 @@ import org.h2.util.StringUtils;
 
 
 /**
- * Implementation of the VARCHAR data type.
- * It is also the base class for other ValueSSNSecureSecure* classes.
+ * Implementation of the SSNSecure data type.
  */
 public class ValueSSNSecure extends Value {
 
@@ -36,12 +35,6 @@ public class ValueSSNSecure extends Value {
 
     @Override
     public String getSQL()  {
-    	
-    	//if(value.length()>9)
-			
-    	/*if(value.length()==9)
-    		return StringUtils.quoteStringSQL(value.substring(5,9));
-    	*/	
     		
     		return StringUtils.quoteStringSQL(value);
     }
@@ -54,7 +47,6 @@ public class ValueSSNSecure extends Value {
 
     @Override
     protected int compareSecure(Value o, CompareMode mode) {
-        // compatibility: the other object could be another type
         ValueSSNSecure v = (ValueSSNSecure) o;
         return mode.compareString(value, v.value, false);
     }
@@ -68,7 +60,7 @@ public class ValueSSNSecure extends Value {
 
     @Override
     public long getPrecision() {
-        return 9;//value.length();
+        return 9;
     }
 
     @Override
@@ -112,7 +104,7 @@ public class ValueSSNSecure extends Value {
     }
 
     /**
-     * Get or create a string value for the given string.
+     * Get or create a string value for the given SSN Also check for .
      *
      * @param s the string
      * @return the value
@@ -142,7 +134,7 @@ public class ValueSSNSecure extends Value {
     /**
      * Get or create a string value for the given string.
      *
-     * @param s the string
+     * @param s the SSN
      * @param treatEmptyStringsAsNull whether or not to treat empty strings as
      *            NULL
      * @return the value
@@ -156,12 +148,10 @@ public class ValueSSNSecure extends Value {
             return obj;
         }
         return Value.cache(obj);
-        // this saves memory, but is really slow
-        // return new ValueSSNSecure(s.intern());
     }
 
     /**
-     * Create a new String value of the current class.
+     * Create a new SSN of the current class.
      * This method is meant to be overridden by subclasses.
      *
      * @param s the string
