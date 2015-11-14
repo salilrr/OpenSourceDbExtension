@@ -38,6 +38,7 @@ import org.h2.util.Utils;
  * @author Thomas Mueller
  * @author Noel Grandin
  * @author Nicolas Fortin, Atelier SIG, IRSTV FR CNRS 24888
+ * 
  */
 public abstract class Value {
 

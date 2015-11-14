@@ -2,14 +2,13 @@
  * 
  * Copyright 2004-2014 H2 Group. Multiple-Licensed under the MPL 2.0,
  * and the EPL 1.0 (http://h2database.com/html/license.html).
- * Initial Developer: H2 Group
+ * Initial Developer: Salil Rajadhyaksha
  */
 package org.h2.value;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.regex.Matcher;
-
 import org.h2.engine.SysProperties;
 import org.h2.message.DbException;
 import org.h2.util.MathUtils;
@@ -17,15 +16,14 @@ import org.h2.util.StringUtils;
 
 
 /**
- * Implementation of the VARCHAR data type.
- * It is also the base class for other ValueSSN* classes.
+ * Implementation of the SSN data type.
  */
 public class ValueSSN extends Value {
 
     private static final ValueSSN EMPTY = new ValueSSN("000000000");
 
     /**
-     * The string data.
+     * The SSN data.
      */
     protected final String value;
 
@@ -105,21 +103,21 @@ public class ValueSSN extends Value {
     }
 
     /**
-     * Get or create a string value for the given string.
+     * Get or create a string value for the given SSN.
      *
      * @param s the string
      * @return the value
      */
     public static Value get(String s) {
     	   try {
-               if(s.length()!=9)
+               if(s.length()!=9)//check the length
             	   throw new DbException(new SQLException("Invalid SSN value.The number of characters should be 9"));
            } catch (DbException ex) {
                throw DbException.convert(ex);
            }
     	
     	  
-    	  java.util.regex.Pattern ssnPattern=java.util.regex.Pattern.compile("[0-9]+");
+    	  java.util.regex.Pattern ssnPattern=java.util.regex.Pattern.compile("[0-9]+");//check the characters.
     	  Matcher ssnMatcher=ssnPattern.matcher(s);
     	  boolean isSSNValid=ssnMatcher.matches();
     	  try {
@@ -133,9 +131,9 @@ public class ValueSSN extends Value {
     }
 
     /**
-     * Get or create a string value for the given string.
+     * Get or create a string value for the given SSN.
      *
-     * @param s the string
+     * @param s-SSN
      * @param treatEmptyStringsAsNull whether or not to treat empty strings as
      *            NULL
      * @return the value
@@ -149,8 +147,6 @@ public class ValueSSN extends Value {
             return obj;
         }
         return Value.cache(obj);
-        // this saves memory, but is really slow
-        // return new ValueSSN(s.intern());
     }
 
     /**
