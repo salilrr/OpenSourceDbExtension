@@ -1,0 +1,743 @@
+STATUS | wrapper  | 2015/09/10 10:41:12 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/09/10 10:41:12 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/10 10:41:13 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/10 10:41:13 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/10 10:41:13 | 
+INFO   | jvm 1    | 2015/09/10 10:41:13 | 
+INFO   | jvm 1    | 2015/09/10 10:41:13 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/10 10:41:13 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/10 10:41:13 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/10 10:41:13 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/10 10:41:13 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/10 10:41:13 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/10 10:41:13 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/10 10:41:13 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/10 10:41:13 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/10 10:41:13 |           Reported cause:
+INFO   | jvm 1    | 2015/09/10 10:41:13 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/10 10:41:13 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/10 10:41:13 | 
+INFO   | jvm 1    | 2015/09/10 10:41:14 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/10 10:41:14 | Web Console server running at http://192.168.154.1:8082 (others can connect)
+STATUS | wrapper  | 2015/09/10 10:42:06 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/09/10 10:42:06 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/10 10:42:06 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/10 10:42:06 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/10 10:42:06 | 
+INFO   | jvm 1    | 2015/09/10 10:42:06 | 
+INFO   | jvm 1    | 2015/09/10 10:42:06 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/10 10:42:06 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/10 10:42:06 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/10 10:42:06 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/10 10:42:06 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/10 10:42:06 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/10 10:42:06 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/10 10:42:06 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/10 10:42:06 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/10 10:42:06 |           Reported cause:
+INFO   | jvm 1    | 2015/09/10 10:42:06 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/10 10:42:06 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/10 10:42:06 | 
+INFO   | jvm 1    | 2015/09/10 10:42:06 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/10 10:42:06 | Web Console server running at http://192.168.154.1:8082 (others can connect)
+STATUS | wrapper  | 2015/09/10 10:42:45 | H2 Database Engine Service installed.
+STATUS | wrapper  | 2015/09/10 10:42:50 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/10 10:42:50 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/10 10:42:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/10 10:42:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/10 10:42:50 | 
+INFO   | jvm 1    | 2015/09/10 10:42:50 | 
+INFO   | jvm 1    | 2015/09/10 10:42:50 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/10 10:42:50 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/10 10:42:50 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/10 10:42:50 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/10 10:42:50 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/10 10:42:50 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/10 10:42:50 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/10 10:42:50 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/10 10:42:50 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/10 10:42:50 |           Reported cause:
+INFO   | jvm 1    | 2015/09/10 10:42:50 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/10 10:42:50 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/10 10:42:50 | 
+INFO   | jvm 1    | 2015/09/10 10:42:51 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/10 10:42:51 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/10 10:43:11 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/09/10 10:43:11 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/10 10:43:12 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/10 10:43:12 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 
+INFO   | jvm 1    | 2015/09/10 10:43:12 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/10 10:43:12 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/10 10:43:12 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/10 10:43:12 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/10 10:43:12 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/10 10:43:12 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/10 10:43:12 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/10 10:43:12 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/10 10:43:12 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/10 10:43:12 |           Reported cause:
+INFO   | jvm 1    | 2015/09/10 10:43:12 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/10 10:43:12 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 
+INFO   | jvm 1    | 2015/09/10 10:43:12 | TCP server running at tcp://192.168.154.1:50938 (only local connections)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | The Web Console server could not be started. Possible cause: another server is already running at http://192.168.154.1:8082
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 
+INFO   | jvm 1    | 2015/09/10 10:43:12 | WrapperSimpleApp: Encountered an error running main: org.h2.jdbc.JdbcSQLException: Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-188]
+INFO   | jvm 1    | 2015/09/10 10:43:12 | org.h2.jdbc.JdbcSQLException: Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-188]
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.h2.message.DbException.get(DbException.java:168)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:194)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.h2.util.NetUtils.createServerSocket(NetUtils.java:160)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.h2.server.web.WebServer.start(WebServer.java:342)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.h2.tools.Server.start(Server.java:484)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.h2.tools.Server.runTool(Server.java:323)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.h2.tools.Server.main(Server.java:118)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at java.lang.Thread.run(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | Caused by: java.net.BindException: Address already in use: JVM_Bind
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at java.net.PlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at java.net.ServerSocket.bind(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:190)
+INFO   | jvm 1    | 2015/09/10 10:43:12 | 	... 11 more
+STATUS | wrapper  | 2015/09/10 10:43:14 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/10 10:43:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/09/10 10:43:41 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/10 10:43:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/10 10:43:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/10 10:43:41 | 
+INFO   | jvm 1    | 2015/09/10 10:43:41 | 
+INFO   | jvm 1    | 2015/09/10 10:43:41 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/10 10:43:41 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/10 10:43:41 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/10 10:43:41 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/10 10:43:41 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/10 10:43:41 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/10 10:43:41 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/10 10:43:41 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/10 10:43:41 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/10 10:43:41 |           Reported cause:
+INFO   | jvm 1    | 2015/09/10 10:43:41 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/10 10:43:41 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/10 10:43:41 | 
+INFO   | jvm 1    | 2015/09/10 10:43:41 | TCP server running at tcp://192.168.154.1:50965 (only local connections)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | The Web Console server could not be started. Possible cause: another server is already running at http://192.168.154.1:8082
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 
+INFO   | jvm 1    | 2015/09/10 10:43:42 | WrapperSimpleApp: Encountered an error running main: org.h2.jdbc.JdbcSQLException: Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-188]
+INFO   | jvm 1    | 2015/09/10 10:43:42 | org.h2.jdbc.JdbcSQLException: Exception opening port "8082" (port may be in use), cause: "java.net.BindException: Address already in use: JVM_Bind" [90061-188]
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.h2.message.DbException.get(DbException.java:168)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:194)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.h2.util.NetUtils.createServerSocket(NetUtils.java:160)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.h2.server.web.WebServer.start(WebServer.java:342)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.h2.tools.Server.start(Server.java:484)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.h2.tools.Server.runTool(Server.java:323)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.h2.tools.Server.main(Server.java:118)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at java.lang.Thread.run(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | Caused by: java.net.BindException: Address already in use: JVM_Bind
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at java.net.PlainSocketImpl.bind(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at java.net.ServerSocket.bind(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at java.net.ServerSocket.<init>(Unknown Source)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	at org.h2.util.NetUtils.createServerSocketTry(NetUtils.java:190)
+INFO   | jvm 1    | 2015/09/10 10:43:42 | 	... 11 more
+STATUS | wrapper  | 2015/09/10 10:43:43 | <-- Wrapper Stopped
+ERROR  | wrapper  | 2015/09/10 15:04:48 | JVM appears hung: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2015/09/10 15:04:51 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/09/10 15:04:57 | Launching a JVM...
+INFO   | wrapper  | 2015/09/10 15:05:29 | Wrapper Process has not received any CPU time for 32 seconds.  Extending timeouts.
+ERROR  | wrapper  | 2015/09/10 15:05:58 | Startup failed: Timed out waiting for a signal from the JVM.
+ERROR  | wrapper  | 2015/09/10 15:05:58 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/09/10 15:06:03 | Launching a JVM...
+INFO   | jvm 3    | 2015/09/10 15:06:06 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 3    | 2015/09/10 15:06:06 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 3    | 2015/09/10 15:06:06 | 
+INFO   | jvm 3    | 2015/09/10 15:06:06 | 
+INFO   | jvm 3    | 2015/09/10 15:06:06 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 3    | 2015/09/10 15:06:06 |           The file is located on the path at the following location but
+INFO   | jvm 3    | 2015/09/10 15:06:06 |           could not be loaded:
+INFO   | jvm 3    | 2015/09/10 15:06:06 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 3    | 2015/09/10 15:06:06 |           Please verify that the file is readable by the current user
+INFO   | jvm 3    | 2015/09/10 15:06:06 |           and that the file has not been corrupted in any way.
+INFO   | jvm 3    | 2015/09/10 15:06:06 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 3    | 2015/09/10 15:06:06 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 3    | 2015/09/10 15:06:06 |           This is a 64-bit JVM.
+INFO   | jvm 3    | 2015/09/10 15:06:06 |           Reported cause:
+INFO   | jvm 3    | 2015/09/10 15:06:06 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 3    | 2015/09/10 15:06:06 |           System signals will not be handled correctly.
+INFO   | jvm 3    | 2015/09/10 15:06:06 | 
+INFO   | jvm 3    | 2015/09/10 15:06:16 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 3    | 2015/09/10 15:06:17 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/11 16:25:52 | Machine is shutting down.
+ERROR  | wrapper  | 2015/09/11 16:26:19 | Shutdown failed: Timed out waiting for the JVM to terminate.
+ERROR  | wrapper  | 2015/09/11 16:26:20 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/09/11 16:26:20 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/11 16:28:14 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/11 16:28:14 | Launching a JVM...
+ERROR  | wrapper  | 2015/09/11 16:28:46 | Startup failed: Timed out waiting for a signal from the JVM.
+ERROR  | wrapper  | 2015/09/11 16:28:46 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/09/11 16:28:51 | Launching a JVM...
+INFO   | jvm 2    | 2015/09/11 16:28:55 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2015/09/11 16:28:55 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2015/09/11 16:28:55 | 
+INFO   | jvm 2    | 2015/09/11 16:28:56 | 
+INFO   | jvm 2    | 2015/09/11 16:28:56 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 2    | 2015/09/11 16:28:56 |           The file is located on the path at the following location but
+INFO   | jvm 2    | 2015/09/11 16:28:56 |           could not be loaded:
+INFO   | jvm 2    | 2015/09/11 16:28:56 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 2    | 2015/09/11 16:28:56 |           Please verify that the file is readable by the current user
+INFO   | jvm 2    | 2015/09/11 16:28:56 |           and that the file has not been corrupted in any way.
+INFO   | jvm 2    | 2015/09/11 16:28:56 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 2    | 2015/09/11 16:28:56 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 2    | 2015/09/11 16:28:56 |           This is a 64-bit JVM.
+INFO   | jvm 2    | 2015/09/11 16:28:56 |           Reported cause:
+INFO   | jvm 2    | 2015/09/11 16:28:56 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 2    | 2015/09/11 16:28:56 |           System signals will not be handled correctly.
+INFO   | jvm 2    | 2015/09/11 16:28:56 | 
+INFO   | jvm 2    | 2015/09/11 16:29:49 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 2    | 2015/09/11 16:29:58 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/12 00:30:42 | Machine is shutting down.
+STATUS | wrapper  | 2015/09/12 00:30:49 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/12 11:45:51 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/12 11:45:51 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/12 11:46:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/12 11:46:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/12 11:46:03 | 
+INFO   | jvm 1    | 2015/09/12 11:46:03 | 
+INFO   | jvm 1    | 2015/09/12 11:46:03 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/12 11:46:03 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/12 11:46:03 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/12 11:46:03 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/12 11:46:03 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/12 11:46:03 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/12 11:46:03 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/12 11:46:03 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/12 11:46:03 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/12 11:46:03 |           Reported cause:
+INFO   | jvm 1    | 2015/09/12 11:46:03 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/12 11:46:03 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/12 11:46:03 | 
+INFO   | jvm 1    | 2015/09/12 11:46:07 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/12 11:46:07 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/14 14:08:30 | Machine is shutting down.
+STATUS | wrapper  | 2015/09/14 14:08:47 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/14 15:22:11 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/14 15:22:12 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/14 15:22:33 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/14 15:22:33 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/14 15:22:33 | 
+INFO   | jvm 1    | 2015/09/14 15:22:34 | 
+INFO   | jvm 1    | 2015/09/14 15:22:34 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/14 15:22:34 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/14 15:22:34 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/14 15:22:34 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/14 15:22:34 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/14 15:22:34 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/14 15:22:34 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/14 15:22:34 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/14 15:22:34 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/14 15:22:34 |           Reported cause:
+INFO   | jvm 1    | 2015/09/14 15:22:34 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/14 15:22:34 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/14 15:22:34 | 
+INFO   | jvm 1    | 2015/09/14 15:22:36 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/14 15:22:36 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/15 05:49:52 | Machine is shutting down.
+INFO   | jvm 1    | 2015/09/15 05:49:54 | Wrapper Manager: Unable to unregister shutdown hook: java.lang.IllegalStateException: Shutdown in progress
+STATUS | wrapper  | 2015/09/15 05:50:01 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/15 12:21:46 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/15 12:21:46 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/15 12:21:53 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/15 12:21:53 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/15 12:21:53 | 
+INFO   | jvm 1    | 2015/09/15 12:22:00 | 
+INFO   | jvm 1    | 2015/09/15 12:22:00 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/15 12:22:00 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/15 12:22:00 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/15 12:22:00 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/15 12:22:00 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/15 12:22:00 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/15 12:22:00 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/15 12:22:00 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/15 12:22:00 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/15 12:22:00 |           Reported cause:
+INFO   | jvm 1    | 2015/09/15 12:22:00 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/15 12:22:00 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/15 12:22:00 | 
+INFO   | jvm 1    | 2015/09/15 12:22:05 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/15 12:22:06 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/15 15:32:25 | Machine is shutting down.
+INFO   | jvm 1    | 2015/09/15 15:32:30 | Wrapper Manager: Unable to unregister shutdown hook: java.lang.IllegalStateException: Shutdown in progress
+STATUS | wrapper  | 2015/09/15 15:32:40 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/15 15:34:37 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/15 15:34:38 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/15 15:34:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/15 15:34:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/15 15:34:39 | 
+INFO   | jvm 1    | 2015/09/15 15:34:39 | 
+INFO   | jvm 1    | 2015/09/15 15:34:39 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/15 15:34:39 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/15 15:34:39 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/15 15:34:39 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/15 15:34:39 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/15 15:34:39 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/15 15:34:39 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/15 15:34:39 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/15 15:34:39 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/15 15:34:39 |           Reported cause:
+INFO   | jvm 1    | 2015/09/15 15:34:39 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/15 15:34:39 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/15 15:34:39 | 
+INFO   | jvm 1    | 2015/09/15 15:34:41 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/15 15:34:41 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/17 02:05:44 | Machine is shutting down.
+STATUS | wrapper  | 2015/09/17 02:05:48 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/17 08:24:07 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/17 08:24:08 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/17 08:24:21 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/17 08:24:21 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/17 08:24:21 | 
+INFO   | jvm 1    | 2015/09/17 08:24:22 | 
+INFO   | jvm 1    | 2015/09/17 08:24:22 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/17 08:24:22 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/17 08:24:22 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/17 08:24:22 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/17 08:24:22 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/17 08:24:22 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/17 08:24:22 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/17 08:24:22 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/17 08:24:22 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/17 08:24:22 |           Reported cause:
+INFO   | jvm 1    | 2015/09/17 08:24:22 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/17 08:24:22 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/17 08:24:22 | 
+INFO   | jvm 1    | 2015/09/17 08:24:24 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/17 08:24:24 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/17 20:06:02 | Machine is shutting down.
+INFO   | jvm 1    | 2015/09/17 20:06:05 | Wrapper Manager: Unable to unregister shutdown hook: java.lang.IllegalStateException: Shutdown in progress
+STATUS | wrapper  | 2015/09/17 20:06:14 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/17 20:09:12 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/17 20:09:13 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/17 20:09:16 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/17 20:09:16 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/17 20:09:16 | 
+INFO   | jvm 1    | 2015/09/17 20:09:16 | 
+INFO   | jvm 1    | 2015/09/17 20:09:16 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/17 20:09:16 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/17 20:09:16 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/17 20:09:16 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/17 20:09:16 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/17 20:09:16 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/17 20:09:16 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/17 20:09:16 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/17 20:09:16 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/17 20:09:16 |           Reported cause:
+INFO   | jvm 1    | 2015/09/17 20:09:16 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/17 20:09:16 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/17 20:09:16 | 
+INFO   | jvm 1    | 2015/09/17 20:09:21 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/17 20:09:21 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+ERROR  | wrapper  | 2015/09/18 08:56:11 | JVM appears hung: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2015/09/18 08:56:15 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/09/18 08:56:24 | Launching a JVM...
+INFO   | jvm 2    | 2015/09/18 08:56:48 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2015/09/18 08:56:48 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2015/09/18 08:56:48 | 
+INFO   | jvm 2    | 2015/09/18 08:56:49 | 
+INFO   | jvm 2    | 2015/09/18 08:56:49 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 2    | 2015/09/18 08:56:49 |           The file is located on the path at the following location but
+INFO   | jvm 2    | 2015/09/18 08:56:49 |           could not be loaded:
+INFO   | jvm 2    | 2015/09/18 08:56:49 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 2    | 2015/09/18 08:56:49 |           Please verify that the file is readable by the current user
+INFO   | jvm 2    | 2015/09/18 08:56:49 |           and that the file has not been corrupted in any way.
+INFO   | jvm 2    | 2015/09/18 08:56:49 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 2    | 2015/09/18 08:56:49 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 2    | 2015/09/18 08:56:49 |           This is a 64-bit JVM.
+INFO   | jvm 2    | 2015/09/18 08:56:49 |           Reported cause:
+INFO   | jvm 2    | 2015/09/18 08:56:49 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 2    | 2015/09/18 08:56:49 |           System signals will not be handled correctly.
+INFO   | jvm 2    | 2015/09/18 08:56:49 | 
+INFO   | jvm 2    | 2015/09/18 08:56:58 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 2    | 2015/09/18 08:56:59 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/19 01:21:16 | Machine is shutting down.
+STATUS | wrapper  | 2015/09/19 01:21:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/21 00:35:26 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/21 00:35:27 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/21 00:35:34 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/21 00:35:34 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/21 00:35:34 | 
+INFO   | jvm 1    | 2015/09/21 00:35:34 | 
+INFO   | jvm 1    | 2015/09/21 00:35:34 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/21 00:35:34 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/21 00:35:34 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/21 00:35:34 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/21 00:35:34 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/21 00:35:34 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/21 00:35:34 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/21 00:35:34 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/21 00:35:34 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/21 00:35:34 |           Reported cause:
+INFO   | jvm 1    | 2015/09/21 00:35:34 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/21 00:35:34 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/21 00:35:34 | 
+INFO   | jvm 1    | 2015/09/21 00:35:38 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/21 00:35:38 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/25 09:25:23 | Machine is shutting down.
+INFO   | jvm 1    | 2015/09/25 09:25:28 | Wrapper Manager: Unable to unregister shutdown hook: java.lang.IllegalStateException: Shutdown in progress
+STATUS | wrapper  | 2015/09/25 09:25:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/25 09:28:26 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/25 09:28:26 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/25 09:28:29 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/25 09:28:29 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/25 09:28:29 | 
+INFO   | jvm 1    | 2015/09/25 09:28:29 | 
+INFO   | jvm 1    | 2015/09/25 09:28:29 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/25 09:28:29 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/25 09:28:29 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/25 09:28:29 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/25 09:28:29 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/25 09:28:29 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/25 09:28:29 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/25 09:28:29 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/25 09:28:29 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/25 09:28:29 |           Reported cause:
+INFO   | jvm 1    | 2015/09/25 09:28:29 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/25 09:28:29 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/25 09:28:29 | 
+INFO   | jvm 1    | 2015/09/25 09:28:30 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/25 09:28:30 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+INFO   | wrapper  | 2015/09/23 10:07:04 | The system clock fell behind the timer by 172801000ms.
+STATUS | wrapper  | 2015/09/25 01:45:14 | Machine is shutting down.
+STATUS | wrapper  | 2015/09/25 01:45:29 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/25 11:58:04 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/25 11:58:04 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/25 11:58:25 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/25 11:58:25 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/25 11:58:25 | 
+INFO   | jvm 1    | 2015/09/25 11:58:29 | 
+INFO   | jvm 1    | 2015/09/25 11:58:29 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/25 11:58:29 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/25 11:58:29 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/25 11:58:29 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/25 11:58:29 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/25 11:58:29 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/25 11:58:29 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/25 11:58:29 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/25 11:58:29 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/25 11:58:29 |           Reported cause:
+INFO   | jvm 1    | 2015/09/25 11:58:29 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/25 11:58:29 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/25 11:58:29 | 
+INFO   | jvm 1    | 2015/09/25 11:58:31 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/25 11:58:31 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+ERROR  | wrapper  | 2015/09/25 16:09:22 | JVM appears hung: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2015/09/25 16:09:26 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/09/25 16:09:33 | Launching a JVM...
+INFO   | wrapper  | 2015/09/25 16:09:52 | Wrapper Process has not received any CPU time for 19 seconds.  Extending timeouts.
+INFO   | jvm 2    | 2015/09/25 16:10:16 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2015/09/25 16:10:16 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2015/09/25 16:10:16 | 
+INFO   | jvm 2    | 2015/09/25 16:10:17 | 
+INFO   | jvm 2    | 2015/09/25 16:10:17 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 2    | 2015/09/25 16:10:17 |           The file is located on the path at the following location but
+INFO   | jvm 2    | 2015/09/25 16:10:17 |           could not be loaded:
+INFO   | jvm 2    | 2015/09/25 16:10:17 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 2    | 2015/09/25 16:10:17 |           Please verify that the file is readable by the current user
+INFO   | jvm 2    | 2015/09/25 16:10:17 |           and that the file has not been corrupted in any way.
+INFO   | jvm 2    | 2015/09/25 16:10:17 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 2    | 2015/09/25 16:10:17 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 2    | 2015/09/25 16:10:17 |           This is a 64-bit JVM.
+INFO   | jvm 2    | 2015/09/25 16:10:17 |           Reported cause:
+INFO   | jvm 2    | 2015/09/25 16:10:17 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 2    | 2015/09/25 16:10:17 |           System signals will not be handled correctly.
+INFO   | jvm 2    | 2015/09/25 16:10:17 | 
+INFO   | jvm 2    | 2015/09/25 16:10:25 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 2    | 2015/09/25 16:10:26 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/25 16:19:16 | Machine is shutting down.
+STATUS | wrapper  | 2015/09/25 16:19:18 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/25 16:21:58 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/25 16:21:58 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/25 16:22:27 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/25 16:22:27 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/25 16:22:27 | 
+INFO   | jvm 1    | 2015/09/25 16:22:28 | 
+INFO   | jvm 1    | 2015/09/25 16:22:28 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/25 16:22:28 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/25 16:22:28 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/25 16:22:28 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/25 16:22:28 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/25 16:22:28 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/25 16:22:28 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/25 16:22:28 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/25 16:22:28 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/25 16:22:28 |           Reported cause:
+INFO   | jvm 1    | 2015/09/25 16:22:28 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/25 16:22:28 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/25 16:22:28 | 
+ERROR  | wrapper  | 2015/09/25 16:22:30 | Startup failed: Timed out waiting for a signal from the JVM.
+ERROR  | wrapper  | 2015/09/25 16:22:30 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/09/25 16:22:35 | Launching a JVM...
+INFO   | jvm 2    | 2015/09/25 16:22:36 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2015/09/25 16:22:36 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2015/09/25 16:22:36 | 
+INFO   | jvm 2    | 2015/09/25 16:22:36 | 
+INFO   | jvm 2    | 2015/09/25 16:22:36 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 2    | 2015/09/25 16:22:36 |           The file is located on the path at the following location but
+INFO   | jvm 2    | 2015/09/25 16:22:36 |           could not be loaded:
+INFO   | jvm 2    | 2015/09/25 16:22:36 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 2    | 2015/09/25 16:22:36 |           Please verify that the file is readable by the current user
+INFO   | jvm 2    | 2015/09/25 16:22:36 |           and that the file has not been corrupted in any way.
+INFO   | jvm 2    | 2015/09/25 16:22:36 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 2    | 2015/09/25 16:22:36 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 2    | 2015/09/25 16:22:36 |           This is a 64-bit JVM.
+INFO   | jvm 2    | 2015/09/25 16:22:36 |           Reported cause:
+INFO   | jvm 2    | 2015/09/25 16:22:36 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 2    | 2015/09/25 16:22:36 |           System signals will not be handled correctly.
+INFO   | jvm 2    | 2015/09/25 16:22:36 | 
+INFO   | jvm 2    | 2015/09/25 16:22:43 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 2    | 2015/09/25 16:22:44 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+ERROR  | wrapper  | 2015/09/28 12:30:58 | JVM appears hung: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2015/09/28 12:31:03 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/09/28 12:31:10 | Launching a JVM...
+INFO   | wrapper  | 2015/09/28 12:31:32 | Wrapper Process has not received any CPU time for 21 seconds.  Extending timeouts.
+ERROR  | wrapper  | 2015/09/28 12:32:06 | Startup failed: Timed out waiting for a signal from the JVM.
+ERROR  | wrapper  | 2015/09/28 12:32:06 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/09/28 12:32:12 | Launching a JVM...
+INFO   | jvm 4    | 2015/09/28 12:32:21 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 4    | 2015/09/28 12:32:21 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 4    | 2015/09/28 12:32:21 | 
+INFO   | jvm 4    | 2015/09/28 12:32:27 | 
+INFO   | jvm 4    | 2015/09/28 12:32:27 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 4    | 2015/09/28 12:32:27 |           The file is located on the path at the following location but
+INFO   | jvm 4    | 2015/09/28 12:32:27 |           could not be loaded:
+INFO   | jvm 4    | 2015/09/28 12:32:27 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 4    | 2015/09/28 12:32:27 |           Please verify that the file is readable by the current user
+INFO   | jvm 4    | 2015/09/28 12:32:27 |           and that the file has not been corrupted in any way.
+INFO   | jvm 4    | 2015/09/28 12:32:27 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 4    | 2015/09/28 12:32:27 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 4    | 2015/09/28 12:32:27 |           This is a 64-bit JVM.
+INFO   | jvm 4    | 2015/09/28 12:32:27 |           Reported cause:
+INFO   | jvm 4    | 2015/09/28 12:32:27 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 4    | 2015/09/28 12:32:27 |           System signals will not be handled correctly.
+INFO   | jvm 4    | 2015/09/28 12:32:27 | 
+INFO   | jvm 4    | 2015/09/28 12:32:36 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 4    | 2015/09/28 12:32:37 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/29 03:48:06 | Machine is shutting down.
+STATUS | wrapper  | 2015/09/29 03:48:31 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/29 11:02:24 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/29 11:02:24 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/29 11:02:26 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/29 11:02:26 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/29 11:02:26 | 
+INFO   | jvm 1    | 2015/09/29 11:02:26 | 
+INFO   | jvm 1    | 2015/09/29 11:02:26 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/29 11:02:26 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/29 11:02:26 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/29 11:02:26 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/29 11:02:26 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/29 11:02:26 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/29 11:02:26 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/29 11:02:26 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/29 11:02:26 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/29 11:02:26 |           Reported cause:
+INFO   | jvm 1    | 2015/09/29 11:02:26 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/29 11:02:26 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/29 11:02:26 | 
+INFO   | jvm 1    | 2015/09/29 11:02:27 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/29 11:02:28 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/29 20:48:21 | Machine is shutting down.
+STATUS | wrapper  | 2015/09/29 20:48:32 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/29 20:50:43 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/29 20:50:44 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/29 20:50:55 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/29 20:50:55 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/29 20:50:55 | 
+INFO   | jvm 1    | 2015/09/29 20:50:55 | 
+INFO   | jvm 1    | 2015/09/29 20:50:55 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/29 20:50:55 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/29 20:50:55 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/29 20:50:55 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/29 20:50:55 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/29 20:50:55 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/29 20:50:55 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/29 20:50:55 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/29 20:50:55 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/29 20:50:55 |           Reported cause:
+INFO   | jvm 1    | 2015/09/29 20:50:55 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/29 20:50:55 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/29 20:50:55 | 
+INFO   | jvm 1    | 2015/09/29 20:50:58 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/29 20:50:59 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/09/30 21:45:20 | Machine is shutting down.
+STATUS | wrapper  | 2015/09/30 21:45:26 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/09/30 21:47:53 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/09/30 21:47:55 | Launching a JVM...
+INFO   | jvm 1    | 2015/09/30 21:48:08 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/09/30 21:48:08 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/09/30 21:48:08 | 
+INFO   | jvm 1    | 2015/09/30 21:48:08 | 
+INFO   | jvm 1    | 2015/09/30 21:48:08 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/09/30 21:48:08 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/09/30 21:48:08 |           could not be loaded:
+INFO   | jvm 1    | 2015/09/30 21:48:08 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/09/30 21:48:08 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/09/30 21:48:08 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/09/30 21:48:08 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/09/30 21:48:08 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/09/30 21:48:08 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/09/30 21:48:08 |           Reported cause:
+INFO   | jvm 1    | 2015/09/30 21:48:08 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/09/30 21:48:08 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/09/30 21:48:08 | 
+INFO   | jvm 1    | 2015/09/30 21:48:10 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/09/30 21:48:11 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/10/05 02:55:44 | Machine is shutting down.
+INFO   | jvm 1    | 2015/10/05 02:55:51 | Wrapper Manager: Unable to unregister shutdown hook: java.lang.IllegalStateException: Shutdown in progress
+STATUS | wrapper  | 2015/10/05 02:55:59 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/10/05 09:20:21 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/10/05 09:20:21 | Launching a JVM...
+ERROR  | wrapper  | 2015/10/05 09:20:52 | Startup failed: Timed out waiting for a signal from the JVM.
+ERROR  | wrapper  | 2015/10/05 09:20:53 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/10/05 09:20:58 | Launching a JVM...
+ERROR  | wrapper  | 2015/10/05 09:21:29 | Startup failed: Timed out waiting for a signal from the JVM.
+ERROR  | wrapper  | 2015/10/05 09:21:29 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/10/05 09:21:33 | Launching a JVM...
+INFO   | jvm 3    | 2015/10/05 09:21:35 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 3    | 2015/10/05 09:21:35 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 3    | 2015/10/05 09:21:35 | 
+INFO   | jvm 3    | 2015/10/05 09:21:35 | 
+INFO   | jvm 3    | 2015/10/05 09:21:35 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 3    | 2015/10/05 09:21:35 |           The file is located on the path at the following location but
+INFO   | jvm 3    | 2015/10/05 09:21:35 |           could not be loaded:
+INFO   | jvm 3    | 2015/10/05 09:21:35 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 3    | 2015/10/05 09:21:35 |           Please verify that the file is readable by the current user
+INFO   | jvm 3    | 2015/10/05 09:21:35 |           and that the file has not been corrupted in any way.
+INFO   | jvm 3    | 2015/10/05 09:21:35 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 3    | 2015/10/05 09:21:35 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 3    | 2015/10/05 09:21:35 |           This is a 64-bit JVM.
+INFO   | jvm 3    | 2015/10/05 09:21:35 |           Reported cause:
+INFO   | jvm 3    | 2015/10/05 09:21:35 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 3    | 2015/10/05 09:21:35 |           System signals will not be handled correctly.
+INFO   | jvm 3    | 2015/10/05 09:21:35 | 
+INFO   | jvm 3    | 2015/10/05 09:21:48 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 3    | 2015/10/05 09:21:50 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/10/06 01:01:25 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/10/06 15:23:01 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/10/06 15:23:02 | Launching a JVM...
+INFO   | wrapper  | 2015/10/06 15:23:18 | Wrapper Process has not received any CPU time for 15 seconds.  Extending timeouts.
+ERROR  | wrapper  | 2015/10/06 15:23:50 | Startup failed: Timed out waiting for a signal from the JVM.
+ERROR  | wrapper  | 2015/10/06 15:23:50 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/10/06 15:23:55 | Launching a JVM...
+ERROR  | wrapper  | 2015/10/06 15:24:25 | Startup failed: Timed out waiting for a signal from the JVM.
+ERROR  | wrapper  | 2015/10/06 15:24:26 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/10/06 15:24:31 | Launching a JVM...
+INFO   | jvm 3    | 2015/10/06 15:24:44 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 3    | 2015/10/06 15:24:44 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 3    | 2015/10/06 15:24:44 | 
+INFO   | jvm 3    | 2015/10/06 15:24:44 | 
+INFO   | jvm 3    | 2015/10/06 15:24:44 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 3    | 2015/10/06 15:24:44 |           The file is located on the path at the following location but
+INFO   | jvm 3    | 2015/10/06 15:24:44 |           could not be loaded:
+INFO   | jvm 3    | 2015/10/06 15:24:44 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 3    | 2015/10/06 15:24:44 |           Please verify that the file is readable by the current user
+INFO   | jvm 3    | 2015/10/06 15:24:44 |           and that the file has not been corrupted in any way.
+INFO   | jvm 3    | 2015/10/06 15:24:44 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 3    | 2015/10/06 15:24:44 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 3    | 2015/10/06 15:24:44 |           This is a 64-bit JVM.
+INFO   | jvm 3    | 2015/10/06 15:24:44 |           Reported cause:
+INFO   | jvm 3    | 2015/10/06 15:24:44 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 3    | 2015/10/06 15:24:44 |           System signals will not be handled correctly.
+INFO   | jvm 3    | 2015/10/06 15:24:44 | 
+INFO   | jvm 3    | 2015/10/06 15:24:51 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 3    | 2015/10/06 15:24:52 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/10/06 20:07:37 | Machine is shutting down.
+ERROR  | wrapper  | 2015/10/06 20:07:59 | Shutdown failed: Timed out waiting for the JVM to terminate.
+ERROR  | wrapper  | 2015/10/06 20:08:00 | JVM did not exit on request.
+ERROR  | wrapper  | 2015/10/06 20:08:00 |   Attempt to terminate process failed: Access is denied. (0x5)
+STATUS | wrapper  | 2015/10/06 20:08:00 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/10/06 20:10:04 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/10/06 20:10:05 | Launching a JVM...
+INFO   | jvm 1    | 2015/10/06 20:10:15 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/10/06 20:10:15 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/10/06 20:10:15 | 
+INFO   | jvm 1    | 2015/10/06 20:10:16 | 
+INFO   | jvm 1    | 2015/10/06 20:10:16 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/10/06 20:10:16 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/10/06 20:10:16 |           could not be loaded:
+INFO   | jvm 1    | 2015/10/06 20:10:16 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/10/06 20:10:16 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/10/06 20:10:16 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/10/06 20:10:16 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/10/06 20:10:16 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/10/06 20:10:16 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/10/06 20:10:16 |           Reported cause:
+INFO   | jvm 1    | 2015/10/06 20:10:16 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/10/06 20:10:16 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/10/06 20:10:16 | 
+INFO   | jvm 1    | 2015/10/06 20:10:18 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/10/06 20:10:18 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+ERROR  | wrapper  | 2015/10/07 08:54:44 | JVM appears hung: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2015/10/07 08:54:48 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2015/10/07 08:54:57 | Launching a JVM...
+INFO   | wrapper  | 2015/10/07 08:55:09 | Wrapper Process has not received any CPU time for 15 seconds.  Extending timeouts.
+INFO   | jvm 2    | 2015/10/07 08:55:33 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2015/10/07 08:55:33 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2015/10/07 08:55:33 | 
+INFO   | jvm 2    | 2015/10/07 08:55:34 | 
+INFO   | jvm 2    | 2015/10/07 08:55:34 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 2    | 2015/10/07 08:55:34 |           The file is located on the path at the following location but
+INFO   | jvm 2    | 2015/10/07 08:55:34 |           could not be loaded:
+INFO   | jvm 2    | 2015/10/07 08:55:34 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 2    | 2015/10/07 08:55:34 |           Please verify that the file is readable by the current user
+INFO   | jvm 2    | 2015/10/07 08:55:34 |           and that the file has not been corrupted in any way.
+INFO   | jvm 2    | 2015/10/07 08:55:34 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 2    | 2015/10/07 08:55:34 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 2    | 2015/10/07 08:55:34 |           This is a 64-bit JVM.
+INFO   | jvm 2    | 2015/10/07 08:55:34 |           Reported cause:
+INFO   | jvm 2    | 2015/10/07 08:55:34 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 2    | 2015/10/07 08:55:34 |           System signals will not be handled correctly.
+INFO   | jvm 2    | 2015/10/07 08:55:34 | 
+INFO   | jvm 2    | 2015/10/07 08:55:42 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 2    | 2015/10/07 08:55:44 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/10/07 20:24:03 | Machine is shutting down.
+STATUS | wrapper  | 2015/10/07 20:24:24 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/10/07 20:26:47 | --> Wrapper Started as Service
+STATUS | wrapper  | 2015/10/07 20:26:47 | Launching a JVM...
+INFO   | jvm 1    | 2015/10/07 20:27:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/10/07 20:27:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/10/07 20:27:05 | 
+INFO   | jvm 1    | 2015/10/07 20:27:05 | 
+INFO   | jvm 1    | 2015/10/07 20:27:05 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/10/07 20:27:05 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/10/07 20:27:05 |           could not be loaded:
+INFO   | jvm 1    | 2015/10/07 20:27:05 |             C:\DBSI\project\h2\service\.\wrapper.dll
+INFO   | jvm 1    | 2015/10/07 20:27:05 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/10/07 20:27:05 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/10/07 20:27:05 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/10/07 20:27:05 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/10/07 20:27:05 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/10/07 20:27:05 |           Reported cause:
+INFO   | jvm 1    | 2015/10/07 20:27:05 |             C:\DBSI\project\h2\service\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/10/07 20:27:05 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/10/07 20:27:05 | 
+INFO   | jvm 1    | 2015/10/07 20:27:17 | TCP server running at tcp://192.168.154.1:9092 (only local connections)
+INFO   | jvm 1    | 2015/10/07 20:27:18 | Web Console server running at http://192.168.154.1:8082 (only local connections)
+STATUS | wrapper  | 2015/10/08 11:04:02 | <-- Wrapper Stopped
